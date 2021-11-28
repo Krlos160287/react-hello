@@ -30,7 +30,9 @@ export const Colorflip = () => {
 				{color}
 			</h1>
 			<h5>Press the button below to generate new colors</h5>
-			<button onClick={handleGenerate}>GENERATE NEW COLOR</button>
+			<button className="btn1" onClick={handleGenerate}>
+				GENERATE NEW COLOR
+			</button>
 		</div>
 	);
 };
